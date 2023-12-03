@@ -8,10 +8,164 @@
 			src="https://kit.fontawesome.com/16665a3288.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
 		<link href="output.css" rel="stylesheet" />
 	</head>
-	<body>
-		<h1 class="text-3xl font-bold underline">Hello world!</h1>
+	<body class="box-border">
+		<div class="cursor z-10"></div>
+		<nav
+			class="h-20 sticky top-0 flex flex-row justify-around px-10 bg-transparent gap-16 z-20"
+		>
+			<img class="link h-48 w-48 -m-3" src="pizza pal logo.png" alt="" />
+			<ul
+				class="link flex flex-row gap-5 items-center justify-around pr-16 text-lg"
+			>
+				<li class="font-light text-white hover:font-semibold">
+					<a href="#hero">Home</a>
+				</li>
+				<li class="font-light text-gray-200 hover:font-semibold">
+					<a href="#menu">Menu</a>
+				</li>
+				<li class="font-light text-gray-200 hover:font-semibold">
+					<a href="#aboutus">About us</a>
+				</li>
+				<li class="font-light text-gray-200 hover:font-semibold">
+					<a href="#visitus">Visit us</a>
+				</li>
+				<li class="font-light text-gray-200 hover:font-semibold">
+					<a href="#contactus">Contact us</a>
+				</li>
+			</ul>
+		</nav>
+		<section
+			id="hero"
+			class="-mt-20 h-[100vh] w-full bg-[url('https://i.pinimg.com/1200x/85/0f/a2/850fa21a46ac10029572017242e1b380.jpg')] bg-no-repeat bg-cover"
+		>
+			<div
+				class="h-[100vh] w-full backdrop-blur-[5px] z-10 flex flex-col justify-center items-center gap-1 text-gray-300"
+			>
+				<p class="text-2xl text-center font-medium">
+					SERVING THE BEST OVEN BAKED GOODNESS IN THE TOWN
+				</p>
+				<p class="text-2xl text-center font-medium">
+					GET THE BEST PIZZA EXPERIENCE WITH US AT <br />
+					<span class="text-4xl font-extrabold gap-4">PIZZA PAL</span>
+				</p>
+				<button
+					class="link w-max mt-5 bg-amber-700 px-8 py-2 hover:font-bold font-normal text-white text-xl rounded-full duration-500"
+				>
+					<a href="#menu">SEE MENU</a>
+				</button>
+			</div>
+		</section>
+		<section
+			id="menu"
+			class="h-[100vh] w-full bg-red-400 flex flex-row justify-center items-center"
+		>
+			<div
+				class="panel text-white text-2xl font-semibold bg-[url('https://media.istockphoto.com/id/686957124/photo/pizza-margherita.jpg?s=612x612&w=0&k=20&c=STQALvMIjcgXPIvpXXUXItAl05QtbmEUQ_PfwSato48=')] bg-cover"
+			>
+				VEG PIZZA
+			</div>
+			<div
+				class="panel active text-white text-2xl font-semibold bg-cover"
+				style="
+					background-image: url('https://www.shutterstock.com/image-photo/fresh-barbecue-chicken-pizza-vegetables-600nw-1703405323.jpg');
+				"
+			>
+				NON-VEG PIZZA
+			</div>
+			<div
+				class="panel text-white text-2xl font-semibold bg-cover"
+				style="
+					background-image: url('https://i.pinimg.com/originals/a0/8d/ba/a08dba39ed38ea93134061df154629c5.jpg');
+				"
+			>
+				OTHER SIDES
+			</div>
+		</section>
+		<section id="aboutus" class="w-full bg-gray-100">
+			<div id="main" class="min-h-screen w-full">
+				<div id="top" class="bg-gray-100">
+					<h1 id="top-h1" class="text-gray-900">ABOUT US</h1>
+				</div>
+				<div id="center" class="bg-gray-900">
+					<div class="content">
+						Pizza pal have been serving pizzas since 2020. <br />
+						Our goal is to serve the best pizzas wnd bring smile to many faces.
+						<br />
+						we use fresh and exclusively sourced ingredients in our recipes with
+						lots of love to create the oven baked goodness that everybody loves
+					</div>
+				</div>
+			</div>
+		</section>
+		<section
+			id="visitus"
+			class="h-[60vh] w-full bg-amber-200 flex flex-col justify-center items-center gap-3"
+		>
+			<p class="text-4xl font-semibold">Come visit us at our store</p>
+			<a href="#">
+				<img
+					class="h-80 w-[50vw]"
+					src="https://www.google.com/maps/d/thumbnail?mid=16MZY2AduBOncuo8GRugbslZOSs4&hl=en"
+					alt=""
+				/>
+			</a>
+		</section>
+		<section
+			id="contactus"
+			class="p-16 h-[40vh] w-full bg-amber-600 text-stone-200"
+		>
+			<div class="flex flex-col justify-center items-center">
+				<h1 class="text-5xl">PIZZA PAL</h1>
+				<div class="px-10 flex flex-row justify-between items-center">
+					<div class="flex-1 flex flex-col justify-center items-center gap-10">
+						<h3 class="text-3xl">follow us</h3>
+						<div class="text-2xl font-bold gap-5">
+							<a href=""
+								><i
+									class="fa-brands fa-square-instagram"
+									style="color: #fcfcfc"
+								></i
+							></a>
+							<a href=""
+								><i class="fa-brands fa-facebook" style="color: #f4f5f5"></i
+							></a>
+							<a href=""
+								><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
+							></a>
+						</div>
+					</div>
+					<div class="flex-1">
+						<p class="text-3xl font-bold">tell us how you liked our pizza</p>
+						<button
+							class="link w-max mt-5 bg-amber-200 px-8 py-2 hover:font-bold font-normal text-white text-xl rounded-full duration-500"
+						>
+							feedback
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+			integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+			integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="script.js"></script>
 		<script src="app.js"></script>
 	</body>
 </html>
